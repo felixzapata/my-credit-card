@@ -1,7 +1,4 @@
-import { css } from 'lit-element';
-
-export const myCreditCardStyle = css`
-:host{
+:host {
     display: block;
     font-family: sans-serif;
 }
@@ -220,4 +217,3 @@ fieldset {
     border: none;
     cursor: pointer;
 }
-`;

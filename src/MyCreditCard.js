@@ -1,5 +1,5 @@
-import { html, css, LitElement } from 'lit-element';
-import {myCreditCardStyle} from  './my-credit-card.style';
+import { html, LitElement } from 'lit-element';
+import myCreditCardStyle from './my-credit-card.style.css';
 
 export default class MyCreditCard extends LitElement {
 

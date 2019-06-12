@@ -1,4 +1,5 @@
 import resolve from 'rollup-plugin-node-resolve';
+import css from 'rollup-plugin-css-only'
 
 export default {
   // If using any exports from a symlinked project, uncomment the following:
@@ -10,6 +11,7 @@ export default {
 		sourcemap: true
 	},
 	plugins: [
-        resolve()
+				resolve(),
+				css({ output: false })
     ]
 };
